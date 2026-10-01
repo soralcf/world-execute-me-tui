@@ -1,0 +1,23 @@
+# Local copyrighted music, lyrics, rebuilt alignment and generated films.
+/input/*
+!/input/README.md
+/local/
+/out/
+/film/
+*.mp4
+*.mov
+*.m4a
+*.mp3
+*.wav
+*.flac
+*.aac
+*.lrc
+*.srt
+*.zip
+# Local runtimes, caches and OS metadata.
+.venv/
+__pycache__/
+*.py[cod]
+.DS_Store
+.env
+.env.*
